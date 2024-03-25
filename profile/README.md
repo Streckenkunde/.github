@@ -19,5 +19,6 @@ Es handelt sich bei diesem Projekt um eine Web-Anwendung zur Verwaltung von Stre
 Es wurden Dokumentation, Software sowie weitere Ressourcen in eigene Unterprojekte oder Seiten verteilt.
 
 - [[Link](https://help.streckenkunde.dennis-heinri.ch/)] **Dokumentation**: Enthält für den Nutzer Informationen zu der Software
+- [[Link](https://github.com/Streckenkunde/Ressourcen)] **Ressourcen**: Enthält alle Ressourcen wie Grafiken, Dokumente und Diagramme
 - [[Link](https://dennis-heinri.ch/)] **Internetseite**: Die Internetseite des Entwicklers für Kontakt und weitere Informationen
 - [[Link](https://github.com/cloudmaker97)] **Entwickler**: Das GitHub Profil des Entwicklers mit anderen Projekten
