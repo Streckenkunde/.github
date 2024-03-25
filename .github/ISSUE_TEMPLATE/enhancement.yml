@@ -1,6 +1,5 @@
 name: Vorschlag einreichen
 description: Einen Vorschlag oder eine Idee für das Projekt veröffentlichen
-title: "[Vorschlag]: "
 labels: ["enhancement", "triage"]
 assignees:
   - cloudmaker97
@@ -17,12 +16,6 @@ body:
       placeholder: Ich würde gerne folgendes sehen...
     validations:
       required: true
-  - type: textarea
-    id: additional
-    attributes:
-      label: Fehlermeldungen
-      description: Falls es zu einer Fehlermeldung kam, fügen Sie den Inhalt der Fehlermeldung hier ein
-      render: shell
   - type: checkboxes
     id: terms
     attributes:
