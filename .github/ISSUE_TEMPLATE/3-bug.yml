@@ -1,0 +1,59 @@
+name: Einen Fehler melden
+description: Fehlermeldungen, Bugs oder ein ungewünschtes Verhalten melden
+labels: ["bug", "triage"]
+assignees:
+  - cloudmaker97
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bitte prüfen Sie vorher in den bereits vorhandenen Beiträgen anderer Nutzer, ob dieses
+        Problem bereits gemeldet wurde. Dafür können Sie die Suchfunktion im Projekt nutzen. Bei
+        Bedarf können Sie in dem bereits gemeldeten Fehler Ihren Beitrag ergänzen.
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Eine ausführliche Beschreibung zum Problem
+      placeholder: Ich habe folgenden Fehler bekommen, nachdem ich...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Fehlermeldung
+      description: Wenn Sie eine Fehlermeldung erhalten haben, fügen Sie diese hier ein
+      render: shell
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Welchen Browser wurde genutzt?
+    validations:
+      required: false
+  - type: input
+    id: software_version
+    attributes:
+      label: Software-Version
+      description: Aktuelle Version der Software?
+    validations:
+      required: false
+  - type: input
+    id: software_module
+    attributes:
+      label: Software-Modul
+      description: In welchem Teil der Software entstand das Problem?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Bestätigen Sie Ihre Eingaben
+      description: Überprüfen Sie die Punkte, damit das Problem schnell behoben werden kann 
+      options:
+        - label: Ich habe das Problem ausführlich beschrieben und einen aussagekräftigen Titel verwendet
+          required: true
+        - label: Ich habe die Suchfunktion verwendet und dieses Problem wurde noch nicht beschrieben
+          required: true

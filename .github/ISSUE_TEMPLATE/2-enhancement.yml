@@ -9,7 +9,7 @@ body:
       value: |
         Vielen Dank für das Einreichen dieses Vorschlags. Damit wird das Projekt enorm unterstützt!
   - type: textarea
-    id: ehnancement
+    id: description
     attributes:
       label: Vorschlag beschreiben
       description: Eine ausführliche Beschreibung, damit der Vorschlag umgesetzt werden kann
