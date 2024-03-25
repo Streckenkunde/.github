@@ -1,5 +1,5 @@
 name: Vorschlag einreichen
-description: Einen Vorschlag oder eine Idee für das Projekt veröffentlichen
+description: Einen Verbesserungsvorschlag, eine Ergänzung oder Idee beitragen
 labels: ["enhancement", "triage"]
 assignees:
   - cloudmaker97
